@@ -218,7 +218,7 @@
     (add_net GND)
   )
 
-  (module Connector_Molex:Molex_SL_171971-0005_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 5E92424F) (tstamp 5E924E0C)
+  (module Connector_Molex:Molex_SL_171971-0005_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 5E925526) (tstamp 5E924E0C)
     (at 162.687 72.898 180)
     (descr "Molex Stackable Linear Connector, 171971-0005 (compatible alternatives: 171971-0105, 171971-0205), 5 Pins per row (https://www.molex.com/pdm_docs/sd/1719710002_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex SL vertical")
@@ -270,7 +270,8 @@
     (fp_line (start -2.37 -0.24) (end -2.37 1.79) (layer F.Fab) (width 0.1))
     (fp_line (start -2.5 -0.24) (end -2.37 -0.24) (layer F.Fab) (width 0.1))
     (fp_line (start -2.5 -2.55) (end -2.5 -0.24) (layer F.Fab) (width 0.1))
-    (pad 5 thru_hole circle (at 10.16 0 180) (size 1.74 1.74) (drill 1.09) (layers *.Cu *.Mask))
+    (pad 5 thru_hole circle (at 10.16 0 180) (size 1.74 1.74) (drill 1.09) (layers *.Cu *.Mask)
+      (net 16 "Net-(F1-Pad2)"))
     (pad 4 thru_hole circle (at 7.62 0 180) (size 1.74 1.74) (drill 1.09) (layers *.Cu *.Mask)
       (net 23 D-))
     (pad 3 thru_hole circle (at 5.08 0 180) (size 1.74 1.74) (drill 1.09) (layers *.Cu *.Mask)
